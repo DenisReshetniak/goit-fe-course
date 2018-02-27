@@ -63,9 +63,13 @@ body {
     margin-bottom: -100px;
 }
 input {
-    margin-left: 39%;
+    margin: 0 auto;
+    display: block;
+    border: 1 px solid;
+    cursor: pointer;
     width: 160px;
     height: 60px;
     font-size: 20px;
     background-color: white;
+    color: grey;
   }

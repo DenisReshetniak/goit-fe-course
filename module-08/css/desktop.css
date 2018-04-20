@@ -1,0 +1,35 @@
+@media (min-width: 1440px) {
+    
+    .header_content {
+        max-width: 944px;
+    }
+    .nav {
+        padding-bottom: 2rem
+    } 
+    .friend_header {
+        width: 60%;
+
+    }
+    .friend_text {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 2rem
+    }
+    .find_friend {
+        width: 25%;
+    }
+    .friend_content {
+        max-width: 940px;
+        padding-bottom: 2.5rem
+    }
+    .meet_friend {
+        margin-bottom: 2rem
+    }
+    .p_list {
+        width: 940px;
+        flex-wrap: nowrap;
+    }
+    .other_friend{
+        width: 25%;
+    }
+}

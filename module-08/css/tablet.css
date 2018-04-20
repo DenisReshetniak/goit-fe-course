@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+    .wrapper {
+        background: url(../images/backgr_photo.jpg) no-repeat center;
+        background-size: cover;
+        height: 43.75rem;
+    }
+    .wrapper::after {
+        height: inherit
+    }
+    .header_content {
+        max-width: 680px;
+    }
+    .nav {
+        padding-bottom: 2rem
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-top:  3.125rem
+    }
+    .logo {
+        margin: 0;
+    }
+    
+    .friend_header {
+        font-size: 52px;
+        line-height: 60px;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 3rem
+    }
+    .friend_text {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 2rem
+    }
+    .find_friend {
+        width: 35%;
+    }
+    .friend_content {
+        max-width: 768px;
+        padding-bottom: 2.5rem
+    }
+    .meet_friend {
+        margin-bottom: 2rem
+    }
+    .p_list {
+        width: 490px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .list_item {
+        width: 236px;
+      }
+    .item1::after,
+    .item2::after,
+    .item3::after,
+    .item4::after {
+        right: 50px;
+    }
+    .other_partners {
+        width: 25%;
+        
+      }
+    .item1 {
+        order: 1;
+    }
+    .item2 {
+        order: 3;
+    }
+    .item3 {
+        order: 2;
+    }
+    .item4 {
+        order: 4;
+    }
+}
